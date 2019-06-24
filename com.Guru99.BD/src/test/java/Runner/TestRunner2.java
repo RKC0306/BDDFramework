@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
- features = "C:\\Work\\eclipse-workspace\\com.Guru99.BD\\Features\\gurubankLoginWithExcel.feature"
+ features = "C:\\Users\\RamaKrishna\\git\\BDDFramework\\com.Guru99.BD\\Features\\gurubankLoginWithExcel.feature"
  ,glue={"StepDefinitions2"}
  ,plugin = {"pretty","html:reports/test-report"}
  ,dryRun = false

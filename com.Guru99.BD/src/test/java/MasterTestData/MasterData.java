@@ -43,7 +43,7 @@ public class MasterData
 		int rows = sheet.getLastRowNum();
 		System.out.println(rows);
 		row = sheet.getRow(0);
-		for(int j = 1; j<=row.getLastCellNum(); j++)
+		for(int j = 1; j<row.getLastCellNum(); j++)
 		{
 			Map<String, String> myMap = new HashMap<String, String>();
 			for(int i = 0; i<=rows; i++)
